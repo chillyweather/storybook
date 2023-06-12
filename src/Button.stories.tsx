@@ -13,15 +13,19 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 /**  
- something about Primary component
+ something about Primary button
 */
 export const Primary: Story = {
-  args: {
-    variant: "primary",
-    onClick: () => {},
-  },
+    args: {
+        variant: "primary",
+        onClick: () => {},
+    },
 };
 
+
+/**  
+ something about Secondary button
+*/
 export const Secondary: Story = {
   args: {
     variant: "secondary",
