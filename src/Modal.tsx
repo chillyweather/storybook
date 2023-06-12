@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Button from "./Button";
-import city from "./assets/city.svg";
 import styled from "styled-components";
 import { generateRandomHexColor } from "./utils";
 
@@ -10,15 +9,10 @@ const StyledModalContent = styled.div`
   align-items: center;
 `;
 
-const StyledImg = styled.img`
-  height: 700px;
-`;
-
 const Modal = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const [color, setColor] = useState("#000000");
 
-  const handleCloseModal = () => {
+  const handleClick = () => {
     const newColor = generateRandomHexColor();
     setColor(newColor);
   };
@@ -40,7 +34,7 @@ const Modal = () => {
       <div className="modal">
         <StyledModalContent>
           {picture}
-          <Button variant="primary" onClick={handleCloseModal} />
+          <Button variant="primary" onClick={handleClick} />
         </StyledModalContent>
       </div>
     </div>
