@@ -11,7 +11,7 @@ const meta: Meta<typeof Modal> = {
 export default meta;
 type Story = StoryObj<typeof Modal>;
 
-/** 
-    Documentation of the Modal
+/**
+ * SVG picture element with a fill color generated randomly on click.
  */
 export const Default: Story = {};

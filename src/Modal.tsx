@@ -31,14 +31,10 @@ const Modal = () => {
   );
 
   return (
-    <div>
-      <div className="modal">
-        <StyledModalContent>
-          {picture}
-          <Button variant="primary" onClick={handleClick} />
-        </StyledModalContent>
-      </div>
-    </div>
+    <StyledModalContent>
+      {picture}
+      <Button variant="primary" onClick={handleClick} />
+    </StyledModalContent>
   );
 };
 
