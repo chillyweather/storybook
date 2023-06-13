@@ -4,7 +4,9 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems:'center' }}>
+    <div
+      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+    >
       <Modal />
     </div>
   );
