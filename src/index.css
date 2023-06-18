@@ -1,13 +1,13 @@
 button {
         border-radius: 8px;
-        border: 2px solid #EE6125;
-        color: #EE6125;
+        border: 2px solid #09B4DA;
+        color: #09B4DA;
         margin: 0 1em;
         padding: 8px 24px 8px 24px;
       }
       
       button.primary {
-        background: #EE6125;
+        background: #09B4DA;
         color: white;
       }
       
@@ -17,23 +17,23 @@ button {
       
       button:hover {
         background: #fff;
-        color: #EE6125;
+        color: #09B4DA;
         cursor: pointer;
       }
       
       button.primary:hover {
-        background: #EE6125;
+        background: #09B4DA;
         color: white;
       }
       
       button.secondary:hover {
-        background: #EE6125;
+        background: #09B4DA;
         color: white;
       }
       
       button:active {
         background: #d9d9d9;
-        color: #EE6125;
+        color: #09B4DA;
         outline: none;
       }
       
