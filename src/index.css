@@ -3,7 +3,7 @@ button {
         border: 2px solid #B03E3E;
         color: #B03E3E;
         margin: 0 1em;
-        padding: 1em 2em;
+        padding: 24px 40px 24px 40px;
       }
       
       button.primary {
