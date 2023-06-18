@@ -1,14 +1,16 @@
 import React from "react";
-import StyledButton from "./Button.styled";
+import "./index.css";
+
+type Props = { variant?: "primary" | "secondary" };
 
 const Button: React.FC<{
   onClick: React.MouseEventHandler<HTMLButtonElement>;
   variant?: "primary" | "secondary";
 }> = ({ onClick, variant }) => {
   return (
-    <StyledButton onClick={onClick} variant={variant}>
+    <button className={variant} onClick={onClick}>
       Button
-    </StyledButton>
+    </button>
   );
 };
 

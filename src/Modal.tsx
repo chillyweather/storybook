@@ -1,14 +1,9 @@
 import { useState } from "react";
 import Button from "./Button";
-import styled from "styled-components";
 import { generateRandomHexColor } from "./utils";
+import { StyledModalContent } from "./Modal.styled";
 
-const StyledModalContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-`;
+
 
 const Modal = () => {
   const [color, setColor] = useState("#000000");
